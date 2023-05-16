@@ -75,3 +75,14 @@
 
         modified:   README.md
         new file:   app/Http/Controllers/Demo/DemoController.php
+
+
+#### 3.4 Creating methods in the controller
+
+        Aktivitas:
+
+        1. Membuat Home, About dan Contact method di dalam DemoContnroller
+
+        modified:   README.md
+        modified:   app/Http/Controllers/Demo/DemoController.php
+        modified:   routes/web.php
