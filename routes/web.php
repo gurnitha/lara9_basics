@@ -20,11 +20,13 @@ Route::get('/', function () {
 
 // ROUTE: http://127.0.0.1:8000/about
 Route::get('/about', function() {
-    echo "Echoing About page";
+    // echo "Echoing About page";
+    return view('about');
 });
 
 // ROUTE: http://127.0.0.1:8000/contact
 Route::get('/contact', function() {
-    echo "Echoing Contact page";
+    // echo "Echoing Contact page";
+    return view('contact');
 });
 

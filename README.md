@@ -24,6 +24,7 @@
         new file:   tests/Unit/ExampleTest.php
         new file:   vite.config.js
 
+
 #### 3.1 Membuat basics routes
 
         Aktivitas:
@@ -31,4 +32,17 @@
         1. Membuat basics routes untuk about dan contact pages
 
         modified:   README.md
+        modified:   routes/web.php
+
+
+#### 3.2 Returning laman about dan contact dari view
+
+        Aktivitas:
+
+        1. Membuat laman about dan contact serta return them from view
+
+        modified:   README.md
+        new file:   resources/views/about.blade.php
+        new file:   resources/views/contact.blade.php
+        new file:   resources/views/start.html
         modified:   routes/web.php
