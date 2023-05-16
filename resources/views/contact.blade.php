@@ -17,5 +17,14 @@
 
 	<hr>
 	<img src="{{url('/images/3_linking_the_pages.jpg')}}" alt="Image"/>
+	<hr>
+	<h3>Protecting About page using middleware</h3>
+	<br>
+	<img src="{{url('/images/4_protecting_about_page_using_middleware.jpg')}}" alt="Image"/>
+	<h3>But you can access about page if you are >20</h3>
+	<br>
+	<img src="{{url('/images/4.1_protecting_about_page_using_middleware.jpg')}}" alt="Image"/>
+
+
 </body>
 </html>

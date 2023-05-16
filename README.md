@@ -141,3 +141,23 @@
         modified:   README.md
         modified:   app/Http/Kernel.php
         new file:   app/Http/Middleware/CheckAge.php
+
+
+
+#### 3.9 MIDDLEWARE - Melindungi laman website
+
+        Aktivitas:
+
+        1. Melindungi laman about dari user berusia <=20
+        2. Tapi bila usia >20 user masih bisa meng-akses
+           laman about dengan cara
+
+           http://127.0.0.1:8000/about?check=21
+
+        modified:   README.md
+        modified:   app/Http/Middleware/CheckAge.php
+        new file:   public/images/4.1_protecting_about_page_using_middleware.jpg
+        new file:   public/images/4_protecting_about_page_using_middleware.jpg
+        modified:   resources/views/contact.blade.php
+        modified:   routes/web.php
+        
