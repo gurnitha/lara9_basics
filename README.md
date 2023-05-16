@@ -110,3 +110,17 @@
         new file:   public/images/2_grouping_the_route.jpg
         modified:   resources/views/about.blade.php
         modified:   routes/web.php
+
+
+#### 3.7 Linking the pages
+
+        Aktivitas:
+
+        1. Membuat anker tags
+
+        modified:   README.md
+        new file:   public/images/3_linking_the_pages.jpg
+        modified:   resources/views/about.blade.php
+        modified:   resources/views/contact.blade.php
+        modified:   resources/views/index.blade.php
+        modified:   routes/web.php

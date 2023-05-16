@@ -6,9 +6,9 @@ use App\Http\Controllers\Demo\DemoController;
 
 // Grouping the route
 Route::controller(DemoController::class)->group(function() {
-    Route::get('/', 'Home');
-    Route::get('/about', 'About');
-    Route::get('/contact', 'Contact');
+    Route::get('/', 'Home')->name('home');
+    Route::get('/about', 'About')->name('about');
+    Route::get('/contact', 'Contact')->name('contact');
 });
 
 
