@@ -86,3 +86,15 @@
         modified:   README.md
         modified:   app/Http/Controllers/Demo/DemoController.php
         modified:   routes/web.php
+
+
+#### 3.5 Kombinasi Controller dan Route
+
+        Aktivitas:
+
+        1. Membuat routes untuk laman Home, About dan Contact
+
+        modified:   README.md
+        new file:   public/images/1_routes_contrller.jpg
+        new file:   resources/views/index.blade.php
+        modified:   routes/web.php
