@@ -23,3 +23,12 @@
         new file:   tests/TestCase.php
         new file:   tests/Unit/ExampleTest.php
         new file:   vite.config.js
+
+#### 3.1 Membuat basics routes
+
+        Aktivitas:
+
+        1. Membuat basics routes untuk about dan contact pages
+
+        modified:   README.md
+        modified:   routes/web.php

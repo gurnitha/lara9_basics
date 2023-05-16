@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// ROUTE: http://127.0.0.1:8000
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ROUTE: http://127.0.0.1:8000/about
+Route::get('/about', function() {
+    echo "Echoing About page";
+});
+
+// ROUTE: http://127.0.0.1:8000/contact
+Route::get('/contact', function() {
+    echo "Echoing Contact page";
+});
+
