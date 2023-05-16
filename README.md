@@ -57,3 +57,21 @@
         modified:   README.md
         new file:   resources/views/using_blade_syntax.blade.php
         modified:   routes/web.php
+
+
+#### 3.4 Membuat controller
+
+        Aktivitas:
+
+        1. REM  :: Membuat DemoController di dalam folder Demo
+
+        E:\workspace\laragon\www\ka_lara9_basics\lara9_basics (main)
+        λ REM  :: Membuat DemoController di dalam folder Demo
+
+        E:\workspace\laragon\www\ka_lara9_basics\lara9_basics (main)
+        λ php artisan make:controller Demo/DemoController
+
+           INFO  Controller [E:\workspace\laragon\www\ka_lara9_basics\lara9_basics\app/Http/Controllers/Demo/DemoController.php] created successfully.
+
+        modified:   README.md
+        new file:   app/Http/Controllers/Demo/DemoController.php
