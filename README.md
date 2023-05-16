@@ -46,3 +46,14 @@
         new file:   resources/views/contact.blade.php
         new file:   resources/views/start.html
         modified:   routes/web.php
+
+
+#### 3.3 Blade syntax
+
+        Aktivitas:
+
+        1. Latihan menggunakan sintax blade
+
+        modified:   README.md
+        new file:   resources/views/using_blade_syntax.blade.php
+        modified:   routes/web.php

@@ -30,3 +30,10 @@ Route::get('/contact', function() {
     return view('contact');
 });
 
+
+// ROUTE: http://127.0.0.1:8000/contact
+Route::get('/blade', function() {
+    // echo "Echoing Contact page";
+    return view('using_blade_syntax');
+});
+
