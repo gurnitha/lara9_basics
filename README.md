@@ -124,3 +124,20 @@
         modified:   resources/views/contact.blade.php
         modified:   resources/views/index.blade.php
         modified:   routes/web.php
+
+
+#### 3.8 MIDDLEWARE - Membuat middleware
+
+        Aktivitas:
+
+        1. Membuat CheckAge middleware
+        2. Register middleware pada Kernel.php
+
+        E:\workspace\laragon\www\ka_lara9_basics\lara9_basics (main)
+        λ php artisan make:middleware CheckAge
+
+           INFO  Middleware [E:\workspace\laragon\www\ka_lara9_basics\lara9_basics\app/Http/Middleware/CheckAge.php] created successfully.
+
+        modified:   README.md
+        modified:   app/Http/Kernel.php
+        new file:   app/Http/Middleware/CheckAge.php
