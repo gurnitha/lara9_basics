@@ -4,9 +4,18 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Demo\DemoController;
 
 
-Route::get('/', [DemoController::class, 'Home']);
-Route::get('/about', [DemoController::class, 'About']);
-Route::get('/contact', [DemoController::class, 'Contact']);
+// Grouping the route
+Route::controller(DemoController::class)->group(function() {
+    Route::get('/', 'Home');
+    Route::get('/about', 'About');
+    Route::get('/contact', 'Contact');
+});
+
+
+// // Kombinasi Controller dan Route
+// Route::get('/', [DemoController::class, 'Home']);
+// Route::get('/about', [DemoController::class, 'About']);
+// Route::get('/contact', [DemoController::class, 'Contact']);
 
 
 // // ROUTE: http://127.0.0.1:8000

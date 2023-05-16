@@ -7,5 +7,7 @@
 </head>
 <body>
 	<h1>This is About New Page</h1>
+	<h3>Grouping the route</h3>
+	<img src="{{url('/images/2_grouping_the_route.jpg')}}" alt="Image"/>
 </body>
 </html>

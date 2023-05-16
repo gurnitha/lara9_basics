@@ -98,3 +98,15 @@
         new file:   public/images/1_routes_contrller.jpg
         new file:   resources/views/index.blade.php
         modified:   routes/web.php
+
+
+#### 3.6 Membuat Group routes
+
+        Aktivitas:
+
+        1. Membuat group route pada route
+
+        modified:   README.md
+        new file:   public/images/2_grouping_the_route.jpg
+        modified:   resources/views/about.blade.php
+        modified:   routes/web.php
