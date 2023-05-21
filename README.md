@@ -160,4 +160,7 @@
         new file:   public/images/4_protecting_about_page_using_middleware.jpg
         modified:   resources/views/contact.blade.php
         modified:   routes/web.php
+
+
+## 4. Laravel 9 Breeze Authentication Setup
         
